@@ -1,3 +1,7 @@
+# Custom Comment
+
+Scaffold the app , run npm i and serve the app by ng serve
+
 # Moviereview
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
