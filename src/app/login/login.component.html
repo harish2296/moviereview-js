@@ -1,0 +1,19 @@
+<p style="text-align: center">Please login to proceed</p>
+
+<div style="text-align: center">
+    <span>
+        User Name
+    </span>
+    <input type="text" [(ngModel)]="loginModel.userName" name="userName">
+</div>
+<div style="text-align: center; margin-top: 10px">
+    <span>
+        Password
+    </span>
+    <input type="password" [(ngModel)]="loginModel.password" name="Password" style="margin-left: 10px;">
+</div>
+<div style="text-align: center; margin-top: 10px; margin-left: 15%;">
+    <span>
+        <button (click)="onClick()">Submit</button>
+    </span>
+</div>

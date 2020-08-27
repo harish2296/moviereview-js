@@ -1,0 +1,18 @@
+<p style="text-align: center">List of movies</p>
+
+<div *ngFor="let item of movieDetails; let i = index">
+    <div style="padding: 20px; margin:10px; text-align: center">
+        <span>
+            <h1>Movie Name : {{item.movieName}}</h1>
+        </span>
+        <span>
+            <h1>Synopsis : {{item.synopsis}}</h1>
+        </span>
+    </div>
+
+    <div *ngFor="let review of item.reviews; let in = index;">
+        <div style="float: right; padding: 10px;">
+            {{review.reviews}}
+        </div>
+    </div>
+</div>

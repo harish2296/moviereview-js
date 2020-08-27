@@ -1,0 +1,5 @@
+<mat-toolbar color="primary">
+    <button mat-button routerLink="/">Home</button>
+    <button *ngIf="isAdmin" mat-button routerLink="/about">About</button>
+</mat-toolbar>
+<app-moviedetails></app-moviedetails>
